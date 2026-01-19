@@ -1,0 +1,98 @@
+.maindiv{
+    background-color: #1d546d9d;
+    height: auto;
+    width: 600px;
+    border-radius: 25px;
+    padding: 10px;
+    text-align: top;
+    box-shadow: 0px 0px 20px rgb(1, 174, 248);
+    gap: 40px;
+    padding: 10px;
+}
+text{
+    text-align: center;
+    color: white;
+                                                
+}
+body{
+    background-color: #06001b ;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+h1{
+    text-align: center;
+    color: rgb(0, 255, 221);
+    font-family: 'Minecraft', sans-serif;
+    font-size: xx-large;
+    text-shadow: 0px 0px 10px rgb(0, 0, 0);
+
+
+}
+.title{
+    color: aliceblue;
+    text-align: center;
+    font-size: xx-large;
+    font-family: 'Minecraft', sans-serif;
+                                                
+}
+.bgv{
+    position: fixed;   /* stays in background */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* fills the screen */
+    z-index: -1;       /* behind everything */
+}
+.top-div {
+    background-color: #1D546D;
+    width: 400px;
+    height: 100;
+    border-radius: 10px;
+    text-align: center;        
+    box-shadow: 7px 7px 5px rgb(0, 41, 58);
+    position: absolute;        
+    top: 20px;                 
+    left: 50%;                 
+    transform: translateX(-50%); 
+}
+p{
+    color: aliceblue;
+    text-align: center;
+    font-family: 'Minecraft', sans-serif;
+                                  
+}
+.logos{
+    height: 100px;
+    width: 100px;
+    border-radius: 34px;
+    padding: 10px;
+}
+.linksholder{
+    background-color: rgba(255, 255, 255, 0.205);
+    border-radius: 20px;
+    padding: 15px;
+    box-shadow: 7px 7px 5px rgb(0, 64, 92);
+    display: flex;
+    gap: 40px;
+    text-align: center;
+
+}
+.links{
+    text-decoration: none;
+    text-shadow: 0 0 8px rgba(21, 0, 143, 0.8);
+    transform: translateX(25%); 
+    transform: translateY(25%);
+    
+
+}
+.logosyt{
+    height: 90px;
+    width: 120px;
+    border-radius: 34px;
+    padding: 10px;
+}
